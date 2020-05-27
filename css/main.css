@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    
+}
+
+body{
+    background-size: 100vw 100vh;
+  }
+
+  h1{
+      color: black;
+  }
+.div-phone-dtmf{
+    height: 60vh; 
+    width: 40vw;
+    
+    display: grid;
+    grid-template-columns: .8fr .8fr .8fr;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.kp-grid-box-center{
+    background-color: #00000066;
+    margin: 0 0;
+    padding: .3em;
+    height: 10vh;
+}
+
+.btn-kp-normal{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ch5-button.btn-kp-normal-custom{
+    background-color: black;
+    border: 0;
+}

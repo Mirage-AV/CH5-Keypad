@@ -1,0 +1,20 @@
+{
+  "cues": [
+    {"type": "boolean","event": "50","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"0" }]},
+    {"type": "boolean","event": "51","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"1" }]},
+    {"type": "boolean","event": "52","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"2" }]},
+    {"type": "boolean","event": "53","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"3" }]},
+    {"type": "boolean","event": "54","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"4" }]},
+    {"type": "boolean","event": "55","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"5" }]},
+    {"type": "boolean","event": "56","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"6" }]},
+    {"type": "boolean","event": "57","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"7" }]},
+    {"type": "boolean","event": "58","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"8" }]},
+    {"type": "boolean","event": "59","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"9" }]},
+    {"type": "boolean","event": "60","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"*" }]},
+    {"type": "boolean","event": "61","trigger": true,"actions": [{"state":"1","type":"s","logic":"set","value":"#" }]}
+    
+  ],
+  "onStart": [ 
+    {"state":"1","type":"s","value":"123456789" }
+  ]
+}
